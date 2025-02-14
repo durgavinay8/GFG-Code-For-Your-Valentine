@@ -1,4 +1,6 @@
-// eslint-disable-next-line react/prop-types
+/* eslint-disable react/prop-types */
+import glimpseOfUsVid from "../assets/glimpse_of_us.mp4";
+
 const Step6 = ({ nextStep }) => {
   return (
     <div className="relative w-full h-screen">
@@ -8,7 +10,7 @@ const Step6 = ({ nextStep }) => {
         autoPlay
         playsInline
       >
-        <source src="/glimpse_of_us.mp4" type="video/mp4" />
+        <source src={glimpseOfUsVid} type="video/mp4" />
       </video>
     </div>
   );

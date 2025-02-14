@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import catMeme from "../assets/happy_happy_cat__meme.gif";
 // eslint-disable-next-line react/prop-types
 const Step7 = ({ nextStep }) => {
   const [accepted, setAccepted] = useState(false);
@@ -27,10 +27,7 @@ const Step7 = ({ nextStep }) => {
         </>
       ) : (
         <>
-          <img
-            src="..\public\happy_happy_cat__meme.gif"
-            className="absolute  h-1/2"
-          ></img>
+          <img src={catMeme} className="absolute  h-1/2"></img>
         </>
       )}
     </div>

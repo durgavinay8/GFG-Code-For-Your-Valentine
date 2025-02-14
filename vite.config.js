@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/gfg-valentine-challenge",
+  base: "/GFG-Code-For-Your-Valentine",
 });
