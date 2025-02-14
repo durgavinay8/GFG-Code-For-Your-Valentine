@@ -10,7 +10,7 @@ const Step4 = ({ nextStep }) => {
         </p>
       </div>
       <button
-        className="font-[PoppiAns] mt-6 px-6 py-2 bg-white text-[#1f85dd] font-bold rounded-xs text-lg cursor-pointer"
+        className="font-[Arial] mt-6 px-6 py-2 bg-white text-[#1f85dd] font-bold rounded-xs text-base cursor-pointer"
         onClick={nextStep}
       >
         Restart

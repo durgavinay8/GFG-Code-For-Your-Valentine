@@ -8,14 +8,14 @@ const Step7 = ({ nextStep }) => {
     <div className="flex flex-col items-center justify-center h-screen text-white text-center">
       {!accepted ? (
         <>
-          <h2 className="text-4xl font-bold">Will you be my Valentine? 👉👈</h2>
+          <h2 className="text-3xl font-bold">Happy Anniversary! Let’s continue laughing, loving, and living this beautiful journey. 💫✨</h2>
 
           <div className="mt-10">
             <button
               className="px-6 py-2 bg-green-500 rounded-lg hover:bg-green-600 mr-4"
               onClick={() => setAccepted(true)}
             >
-              Yes
+              Without a doubt!
             </button>
             <button
               className="px-6 py-2 bg-red-500 rounded-lg hover:bg-red-600"

@@ -19,7 +19,8 @@ const Step3 = ({ nextStep }) => {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/30"></div>
       <h1 className={"text-4xl font-bold z-10"}>
-        Stop smiling like that—it’s unfair how effortlessly charming you are!
+        Stop smiling like that—years have passed, but your charm hasn’t changed
+        one bit! 😍
       </h1>
     </div>
   );

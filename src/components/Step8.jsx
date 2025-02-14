@@ -13,8 +13,8 @@ const Step8 = ({ restart }) => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white text-center">
-      <h1 className="text-6xl font-[mawur] uppercase text-black drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]">
-        Need to hyponotize you again
+      <h1 className="text-4xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255)]">
+        Need to rewind the glimpse of us again
       </h1>
     </div>
   );
